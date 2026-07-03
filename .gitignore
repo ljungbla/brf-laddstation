@@ -1,0 +1,10 @@
+node_modules
+dist
+*.local
+.DS_Store
+
+# Real tenant data (PII) — never commit; the app bundles no data files.
+# These stay local for testing with verify.mjs.
+*.xlsx
+*.xlsm
+*.docx
